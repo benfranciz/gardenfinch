@@ -8,19 +8,17 @@
 
 
 body {
-  background-color:#212121;
+  background-color:hsl(0, 0%, 95%)
   font-family: 'Lato', sans-serif;
   letter-spacing: 0.05em;
-  color:lightgrey;
+  color:hsl(0, 0%, 0%);
   font-weight:200;
-
 }
 
 p{
     font-size: 20px;
     padding:10px 0 10px 0;
 }
-
 
 h1{
   font-weight: 100;
@@ -49,6 +47,7 @@ header {
 
 .nav-container li{
   width: 100px;
+  height: 100px;
 }
 .nav-container li a{text-decoration: none;color:white;}
 
