@@ -71,7 +71,7 @@ h1{
   background-image: url("../img/paul-gilmore-zjs4wDBeeeI-unsplash.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   background-attachment: fixed;
   height: 400px;
   width: 100%;
@@ -81,7 +81,7 @@ h1{
   background-image: url("../img/mads-schmidt-rasmussen-xfngap_DToE-unsplash.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   background-attachment: fixed;
   height: 400px;
   width: 100%;
@@ -91,7 +91,7 @@ h1{
   background-image: url("../img/vincent-romain-yCF6v9WVFcU-unsplash.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position:center;
+  background-position: top;
   background-attachment: fixed;
   height: 400px;
   width: 100%;
@@ -101,7 +101,7 @@ h1{
   background-image: url("../img/daniel-leone-v7daTKlZzaw-unsplash.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   background-attachment: fixed;
   height: 400px;
   width: 100%;
@@ -111,7 +111,7 @@ h1{
   background-image: url("../img/tiraya-adam-QfHEWqPelsc-unsplash.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   background-attachment: fixed;
   height: 400px;
   width: 100%;
