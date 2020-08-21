@@ -3,69 +3,96 @@
 * {margin:0; padding:0;
   }
 
-@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap');
-
-
+@font-face {
+  font-family: Dosis;
+  src: url(../fonts/Dosis/Dosis-VariableFont_wght.ttf);
+}
 
 body {
-  background-color:hsl(0, 0%, 95%)
-  font-family: 'Lato', sans-serif;
+  background-color: hsla(0, 0%, 100% 0%);
+  font-family: 'Dosis';
   letter-spacing: 0.05em;
   color:hsl(0, 0%, 5%);
-  font-weight:200;
+  text-transform: lowercase;
 }
 
 p{
-    font-size: 20px;
-    padding:10px 0 10px 0;
+    font-size: 1.5em;
+    color:hsl(0, 0%, 50%);
+    font-weight: 400;
+    padding: 20px 10% 20px 10%;
+
+
+
 }
+
+a{
+  text-decoration: none;
+  color: inherit;
+
+}
+
+header ul li{
+  display: inline-block;
+  list-style: none;
+  margin: auto 2px auto 2px;
+  padding: 10px;
+  transition: 0.7s;
+}
+
+header ul li:hover{
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 10%);
+  border-radius: 10px;
+}
+
+header ul{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+header{
+  font-weight:500;
+  letter-spacing: 0.1em;
+  color:hsl(0, 0%, 95%);
+  background-color: hsl(0, 0%, 20%);
+}
+
 
 h1{
-  font-weight: 100;
   font-size: 3.5em;
+  color:hsl(0, 0%, 95%);
+  text-align: center;
+  padding-top:150px;
+  height: 250px;
+  font-weight: 500;
 }
 
-
-header {
-	background-color:#333333;
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
+.bannerindex {
+  background-image: url("../img/paul-gilmore-zjs4wDBeeeI-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 400px;
+  width: 100%;
 }
 
-
-.nav-container{
-  height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    list-style-type:none;
-
-
+.content{
+  max-width: 900px;
+  margin: auto;
+  background-color:hsl(200, 50%, 95%);
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
 }
 
-.nav-container li{
-  width: 100px;
-  height: 100px;
-}
-.nav-container li a{text-decoration: none;color:white;}
-
-
-@media screen and (max-width: 600px) {
-  ul.topnav li.right,
-  ul.topnav li {float: none;}
+h2{
+  font-size: 3em;
+  color:hsl(0, 0%, 10%);
+  padding: 30px 5% 30px 5%;
+  font-weight: 500;
+  text-align: center;
 }
 
-
-.containermain{
-  max-width: 1000px;
-  margin:auto;
-  padding:30px;
-}
-
-.logo{
-  width: 100px;
-  margin: 0 25px 0 0;
-
-}
+.alpha{background-color:hsla(0, 0%, 0%, 20%);}
