@@ -91,7 +91,7 @@ h1{
   background-image: url("../img/vincent-romain-yCF6v9WVFcU-unsplash.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position:top;
+  background-position:center;
   background-attachment: fixed;
   height: 400px;
   width: 100%;
@@ -101,7 +101,7 @@ h1{
   background-image: url("../img/daniel-leone-v7daTKlZzaw-unsplash.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: center;
   background-attachment: fixed;
   height: 400px;
   width: 100%;
