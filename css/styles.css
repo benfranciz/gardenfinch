@@ -22,8 +22,6 @@ p{
     font-weight: 400;
     padding: 20px 10% 20px 10%;
 
-
-
 }
 
 a{
@@ -79,9 +77,22 @@ h1{
   width: 100%;
 }
 
+.bannermusic {
+  background-image: url("../img/paul-gilmore-evJtqVB7jdY-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 400px;
+  width: 100%;
+}
+
+
+
+
 .content{
   max-width: 900px;
-  margin: auto;
+  margin: 0 auto 40px auto;
   background-color:hsl(200, 50%, 95%);
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
@@ -89,10 +100,18 @@ h1{
 
 h2{
   font-size: 3em;
-  color:hsl(0, 0%, 10%);
+  color:hsl(0, 0%, 30%);
   padding: 30px 5% 30px 5%;
   font-weight: 500;
   text-align: center;
 }
 
 .alpha{background-color:hsla(0, 0%, 0%, 20%);}
+
+footer{
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 60%);
+    padding: 20px;
+    text-align: center;
+    font-weight: 500;
+}
