@@ -136,9 +136,15 @@ h2{
 .alpha{background-color:hsla(0, 0%, 0%, 20%);}
 
 footer{
+  justify-content: center;
+  display: flex;
     background-color: hsl(0, 0%, 20%);
     color: hsl(0, 0%, 60%);
     padding: 20px;
     text-align: center;
     font-weight: 500;
+}
+
+footer p{
+  font-size: 1em;
 }
