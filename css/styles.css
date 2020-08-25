@@ -68,11 +68,11 @@ h1{
 }
 
 .bannerindex {
-  background-image: url("../img/paul-gilmore-zjs4wDBeeeI-unsplash.jpg");
+  background-image: url("../img/index.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: top;
-  background-attachment: fixed;
+  background-position:center;
+  background-attachment: scroll;
   height: 400px;
   width: 100%;
 }
