@@ -78,41 +78,41 @@ h1{
 }
 
 .bannermusic {
-  background-image: url("../img/mads-schmidt-rasmussen-xfngap_DToE-unsplash.jpg");
+  background-image: url("../img/music.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: top;
-  background-attachment: fixed;
+  background-position:center;
+  background-attachment: scroll;
   height: 400px;
   width: 100%;
 }
 
 .bannervideo {
-  background-image: url("../img/vincent-romain-yCF6v9WVFcU-unsplash.jpg");
+  background-image: url("../img/video.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: top;
-  background-attachment: fixed;
+  background-position:center;
+  background-attachment: scroll;
   height: 400px;
   width: 100%;
 }
 
 .bannerblog {
-  background-image: url("../img/daniel-leone-v7daTKlZzaw-unsplash.jpg");
+  background-image: url("../img/blog.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: top;
-  background-attachment: fixed;
+  background-position:center;
+  background-attachment: scroll;
   height: 400px;
   width: 100%;
 }
 
 .bannerconnect {
-  background-image: url("../img/tiraya-adam-QfHEWqPelsc-unsplash.jpg");
+  background-image: url("../img/connect.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: top;
-  background-attachment: fixed;
+  background-position:center;
+  background-attachment: scroll;
   height: 400px;
   width: 100%;
 }
